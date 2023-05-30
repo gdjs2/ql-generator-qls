@@ -1,4 +1,4 @@
 import cpp
 
 from Function f
-select f, "is a function"
+select f.getType().toString(), f.getName().toString(), f.getParameterString(), f.getBlock()
