@@ -1,7 +1,7 @@
 ---
 library: false
 warnOnImplicitThis: false
-name: gdjs2/ql-generator-qls
+name: utils
 version: 0.0.1
 dependencies:
-  codeql/cpp-all: ^0.7.1
+  codeql/cpp-all: ^0.7.2
