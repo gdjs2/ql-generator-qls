@@ -39,6 +39,7 @@ predicate isFreeExpr(Expr e, Variable v, Access va) {
       //   ) and
       //   va = fc.getArgument(1)
       // )
+      $$0$$
     )
     or
     e.(DeleteExpr).getExpr() = va
